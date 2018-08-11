@@ -3,8 +3,8 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 const config = new require("./config.json");
 //const music = require('discord.js-music-v11');
-//const moment = new require('moment');
-//const ms = new require('ms');
+const moment = new require('moment');
+//const ms= new require('ms');
 const fs = require('fs');
 require('./util/eventLoader')(client);
 
