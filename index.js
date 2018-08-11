@@ -1,11 +1,11 @@
-const music = require('discord.js-music-v11');
 const Discord = require('discord.js');
 const roblox = require('roblox-js');
 const client = new Discord.Client();
 const config = new require("./config.json");
-const moment = new require('moment');
-const ms = new require('ms');
-const fs = require('fs');
+const music = require('discord.js-music-v11');
+//const moment = new require('moment');
+//const ms = new require('ms');
+//const fs = require('fs');
 require('./util/eventLoader')(client);
 
 const log = (msg) => {
