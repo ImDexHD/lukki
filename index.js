@@ -1,8 +1,8 @@
 const Discord = require('discord.js');
-const roblox = require('roblox-js');
+//const roblox = require('roblox-js');
 const client = new Discord.Client();
 const config = new require("./config.json");
-const music = require('discord.js-music-v11');
+//const music = require('discord.js-music-v11');
 //const moment = new require('moment');
 //const ms = new require('ms');
 //const fs = require('fs');
@@ -27,7 +27,7 @@ fs.readdir('./commands/', (err, files) => {
     });
   });
 });
-music(client);
+/*music(client);
 client.reload = function(command) {
   return new Promise((resolve, reject) => {
     try {
@@ -46,7 +46,7 @@ client.reload = function(command) {
       reject(e);
     }
   });
-};
+};*/
 
 client.elevation = function(message) {
   let user = message.mentions.users.first();
