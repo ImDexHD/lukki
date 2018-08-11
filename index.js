@@ -5,7 +5,7 @@ const config = new require("./config.json");
 //const music = require('discord.js-music-v11');
 //const moment = new require('moment');
 //const ms = new require('ms');
-//const fs = require('fs');
+const fs = require('fs');
 require('./util/eventLoader')(client);
 
 const log = (msg) => {
